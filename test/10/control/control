@@ -1,0 +1,10 @@
+Package: deb-test
+Version: 1.0
+Section: test
+Architecture: all
+Installed-Size: 1kB
+Maintainer: Paul Varache <perso@paulvarache.ninja>
+Description: Short description test
+ This a more long description
+ and longer
+ event longer
