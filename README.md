@@ -1,9 +1,9 @@
 #debian-packaging
 ----------------------------------------
 
-[![NPM](https://nodei.co/npm/debian-package.png)](https://npmjs.org/package/debian-package)
+[![NPM](https://nodei.co/npm/debian-packaging.png)](https://npmjs.org/package/debian-packaging)
 
-[![Build Status](http://ci.paulvarache.ninja/job/debian-packaging/badge/icon)](http://ci.paulvarache.ninja/job/debian-packaging/)
+[![Build Status](https://img.shields.io/jenkins/s/http/ci.paulvarache.ninja/debian-packaging.svg)](http://ci.paulvarache.ninja/job/debian-packaging/)
 
 Creates a .deb from a control and data directory.
 
