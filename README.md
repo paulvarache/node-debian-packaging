@@ -1,5 +1,10 @@
 #debian-packaging
 ----------------------------------------
+
+[![NPM](https://nodei.co/npm/debian-package.png)](https://npmjs.org/package/debian-package)
+
+[![Build Status](http://ci.paulvarache.ninja/job/debian-packaging/badge/icon)](http://ci.paulvarache.ninja/job/debian-packaging/)
+
 Creates a .deb from a control and data directory.
 
 After struggling to get a cross platform solution for building .deb packages,

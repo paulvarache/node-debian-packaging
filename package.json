@@ -4,7 +4,8 @@
   "description": "Creates a .deb from a control and data directory.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha",
+    "test-ci": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
   },
   "author": "Paul Varache <perso@paulvarache.ninja>",
   "license": "ISC",
@@ -21,5 +22,8 @@
     "fs-extra-promise": "^0.2.0",
     "istanbul": "^0.3.17",
     "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }
