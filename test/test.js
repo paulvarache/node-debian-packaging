@@ -43,7 +43,9 @@ describe('debian-packaging', function () {
                 done(new Error('The file `10.deb` should exist'));
             }
         })
-        .catch(done);
+        .catch(function (err) {
+            done(err);
+        });
     });
 
 });
